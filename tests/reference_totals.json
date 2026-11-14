@@ -1,0 +1,257 @@
+{
+ "about": "Money per day of rule-pair episodes, as computed by the original research code. tests/test_reproduce.py checks that this package gives the same numbers.",
+ "episodes": [
+  {
+   "fleet": "hub-6h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -65.99493218048887
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": 34.807924746371576
+  },
+  {
+   "fleet": "hub-12h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp",
+   "total_usd_per_day": -24.496809177849144
+  },
+  {
+   "fleet": "hub-12h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:8",
+   "dispatch": "qp",
+   "total_usd_per_day": 183.80556913409274
+  },
+  {
+   "fleet": "hub-mixed",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -63.96488353453943
+  },
+  {
+   "fleet": "hub-mixed",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": 71.37747225310953
+  },
+  {
+   "fleet": "depot-15",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:7",
+   "dispatch": "qp-few",
+   "total_usd_per_day": -27.886906074112048
+  },
+  {
+   "fleet": "depot-15",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:7",
+   "dispatch": "qp-few",
+   "total_usd_per_day": -19.24347308819588
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-rate",
+   "total_usd_per_day": -76.54080065479461
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-band:1:0.25",
+   "total_usd_per_day": -162.84033591811973
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-mono:1e-3",
+   "total_usd_per_day": -201.71832352246216
+  },
+  {
+   "fleet": "hub-12h",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "balanced",
+   "dispatch": "qp",
+   "total_usd_per_day": -385.16280298562697
+  },
+  {
+   "fleet": "depot-15",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:0",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": 4.909715787582824
+  },
+  {
+   "fleet": "hub-mixed",
+   "market": "base",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "fixed:1",
+   "dispatch": "qp-few",
+   "total_usd_per_day": -3077.688808702953
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -70.20617641535435
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "share:3:0.5",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -415.1037362949551
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 15,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -203.58175315096443
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 15,
+   "seed": 200,
+   "bid": "share:3:0.5",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -413.7338426099966
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 30,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -415.22172803490884
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 30,
+   "seed": 200,
+   "bid": "share:3:0.5",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -419.2480554430891
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 60,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -764.8411680905256
+  },
+  {
+   "fleet": "hub-6h",
+   "market": "lead",
+   "market_lead_min": 60,
+   "seed": 200,
+   "bid": "share:3:0.5",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": -436.92479790144836
+  },
+  {
+   "fleet": "hub-12h",
+   "market": "lead",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp",
+   "total_usd_per_day": -53.61137434298643
+  },
+  {
+   "fleet": "hub-mixed",
+   "market": "lead",
+   "market_lead_min": 0,
+   "seed": 201,
+   "bid": "share:5:0.25",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": 70.62428103296298
+  },
+  {
+   "fleet": "depot-15",
+   "market": "lead",
+   "market_lead_min": 0,
+   "seed": 200,
+   "bid": "fixed:7",
+   "dispatch": "qp-few",
+   "total_usd_per_day": -28.14696852839964
+  },
+  {
+   "fleet": "hub-12h",
+   "market": "lead",
+   "market_lead_min": 60,
+   "seed": 200,
+   "bid": "fixed:8",
+   "dispatch": "qp",
+   "total_usd_per_day": -570.6781246014533
+  },
+  {
+   "fleet": "hub-mixed",
+   "market": "lead",
+   "market_lead_min": 60,
+   "seed": 201,
+   "bid": "share:5:0.25",
+   "dispatch": "qp-depth:3e-3",
+   "total_usd_per_day": 12.246084483840123
+  },
+  {
+   "fleet": "depot-15",
+   "market": "lead",
+   "market_lead_min": 60,
+   "seed": 200,
+   "bid": "fixed:7",
+   "dispatch": "qp-few",
+   "total_usd_per_day": -266.3588366362322
+  }
+ ]
+}

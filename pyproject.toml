@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flexbid"
+version = "0.1.0"
+description = "A simulator of an EV fleet that bids its charging flexibility into a real-time power market"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Ayush Rai" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.3.5",
+]
+
+[project.urls]
+Repository = "https://github.com/Ayush-r-git/FlexBid"
+
+[project.optional-dependencies]
+train = ["gymnasium==1.2.3", "torch==2.10.0", "stable-baselines3==2.7.1"]
+test = ["pytest==9.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+flexbid = ["sim/data/*.npz", "sim/data/NOTICE.md"]

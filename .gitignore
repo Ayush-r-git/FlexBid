@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.DS_Store
+.coverage
+.pytest_cache/
+runs/
+*.zip
+*.pt
+.venv/
+venv/
